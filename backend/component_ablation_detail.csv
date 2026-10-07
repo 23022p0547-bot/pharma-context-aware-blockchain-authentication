@@ -1,0 +1,55 @@
+removedComponent,scenario,baselineScore,ablatedScore,scoreChange,absoluteScoreChange,baselineLevel,ablatedLevel,classificationChanged
+Critical Verification Failure,Normal Genuine Scan,0,0,0,0,LOW,LOW,False
+Critical Verification Failure,Legitimate Single Repeat,0,0,0,0,LOW,LOW,False
+Critical Verification Failure,Repeated Scan,10,10,0,0,LOW,LOW,False
+Critical Verification Failure,Excessive Scan Frequency,20,20,0,0,LOW,LOW,False
+Critical Verification Failure,QR Hash Mismatch,90,0,-90,90,HIGH,LOW,True
+Critical Verification Failure,Revoked Product,70,70,0,0,HIGH,HIGH,False
+Critical Verification Failure,Gateway Failure,50,50,0,0,MEDIUM,MEDIUM,False
+Critical Verification Failure,Impossible Geographic Movement,40,40,0,0,MEDIUM,MEDIUM,False
+Critical Verification Failure,Combined Behavioural Geographic Risk,70,70,0,0,HIGH,HIGH,False
+Gateway/System Failure,Normal Genuine Scan,0,0,0,0,LOW,LOW,False
+Gateway/System Failure,Legitimate Single Repeat,0,0,0,0,LOW,LOW,False
+Gateway/System Failure,Repeated Scan,10,10,0,0,LOW,LOW,False
+Gateway/System Failure,Excessive Scan Frequency,20,20,0,0,LOW,LOW,False
+Gateway/System Failure,QR Hash Mismatch,90,90,0,0,HIGH,HIGH,False
+Gateway/System Failure,Revoked Product,70,70,0,0,HIGH,HIGH,False
+Gateway/System Failure,Gateway Failure,50,0,-50,50,MEDIUM,LOW,True
+Gateway/System Failure,Impossible Geographic Movement,40,40,0,0,MEDIUM,MEDIUM,False
+Gateway/System Failure,Combined Behavioural Geographic Risk,70,70,0,0,HIGH,HIGH,False
+Revoked Product,Normal Genuine Scan,0,0,0,0,LOW,LOW,False
+Revoked Product,Legitimate Single Repeat,0,0,0,0,LOW,LOW,False
+Revoked Product,Repeated Scan,10,10,0,0,LOW,LOW,False
+Revoked Product,Excessive Scan Frequency,20,20,0,0,LOW,LOW,False
+Revoked Product,QR Hash Mismatch,90,90,0,0,HIGH,HIGH,False
+Revoked Product,Revoked Product,70,0,-70,70,HIGH,LOW,True
+Revoked Product,Gateway Failure,50,50,0,0,MEDIUM,MEDIUM,False
+Revoked Product,Impossible Geographic Movement,40,40,0,0,MEDIUM,MEDIUM,False
+Revoked Product,Combined Behavioural Geographic Risk,70,70,0,0,HIGH,HIGH,False
+Repeated Scan,Normal Genuine Scan,0,0,0,0,LOW,LOW,False
+Repeated Scan,Legitimate Single Repeat,0,0,0,0,LOW,LOW,False
+Repeated Scan,Repeated Scan,10,0,-10,10,LOW,LOW,False
+Repeated Scan,Excessive Scan Frequency,20,20,0,0,LOW,LOW,False
+Repeated Scan,QR Hash Mismatch,90,90,0,0,HIGH,HIGH,False
+Repeated Scan,Revoked Product,70,70,0,0,HIGH,HIGH,False
+Repeated Scan,Gateway Failure,50,50,0,0,MEDIUM,MEDIUM,False
+Repeated Scan,Impossible Geographic Movement,40,40,0,0,MEDIUM,MEDIUM,False
+Repeated Scan,Combined Behavioural Geographic Risk,70,60,-10,10,HIGH,MEDIUM,True
+Excessive Scan Frequency,Normal Genuine Scan,0,0,0,0,LOW,LOW,False
+Excessive Scan Frequency,Legitimate Single Repeat,0,0,0,0,LOW,LOW,False
+Excessive Scan Frequency,Repeated Scan,10,10,0,0,LOW,LOW,False
+Excessive Scan Frequency,Excessive Scan Frequency,20,0,-20,20,LOW,LOW,False
+Excessive Scan Frequency,QR Hash Mismatch,90,90,0,0,HIGH,HIGH,False
+Excessive Scan Frequency,Revoked Product,70,70,0,0,HIGH,HIGH,False
+Excessive Scan Frequency,Gateway Failure,50,50,0,0,MEDIUM,MEDIUM,False
+Excessive Scan Frequency,Impossible Geographic Movement,40,40,0,0,MEDIUM,MEDIUM,False
+Excessive Scan Frequency,Combined Behavioural Geographic Risk,70,50,-20,20,HIGH,MEDIUM,True
+Geographic Anomaly,Normal Genuine Scan,0,0,0,0,LOW,LOW,False
+Geographic Anomaly,Legitimate Single Repeat,0,0,0,0,LOW,LOW,False
+Geographic Anomaly,Repeated Scan,10,10,0,0,LOW,LOW,False
+Geographic Anomaly,Excessive Scan Frequency,20,20,0,0,LOW,LOW,False
+Geographic Anomaly,QR Hash Mismatch,90,90,0,0,HIGH,HIGH,False
+Geographic Anomaly,Revoked Product,70,70,0,0,HIGH,HIGH,False
+Geographic Anomaly,Gateway Failure,50,50,0,0,MEDIUM,MEDIUM,False
+Geographic Anomaly,Impossible Geographic Movement,40,0,-40,40,MEDIUM,LOW,True
+Geographic Anomaly,Combined Behavioural Geographic Risk,70,30,-40,40,HIGH,MEDIUM,True

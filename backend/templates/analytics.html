@@ -1,0 +1,470 @@
+{% extends "base.html" %}
+
+{% block title %}
+Scan Analytics | PharmaChain
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<div class="container py-5">
+
+    <div class="d-flex justify-content-between
+                align-items-center mb-4">
+
+        <div>
+            <p class="text-primary fw-semibold mb-1">
+                Verification Intelligence
+            </p>
+
+            <h1 class="fw-bold mb-0">
+                QR Scan Analytics
+            </h1>
+        </div>
+
+        <span class="badge bg-success fs-6">
+            Live Scan Data
+        </span>
+
+    </div>
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-md-6 col-xl-2">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-2">Total Scans</p>
+                    <h2 class="fw-bold">{{ total_scans }}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-xl-2">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-2">Today's Scans</p>
+                    <h2 class="fw-bold">{{ today_scans }}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-xl-2">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-2">Unique Drugs</p>
+                    <h2 class="fw-bold">{{ unique_drugs }}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-xl-2">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-2">Genuine</p>
+                    <h2 class="fw-bold text-success">
+                        {{ genuine_scans }}
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-xl-2">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-2">Revoked</p>
+                    <h2 class="fw-bold text-danger">
+                        {{ revoked_scans }}
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-xl-2">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <p class="text-muted mb-2">Failed</p>
+                    <h2 class="fw-bold text-warning">
+                        {{ failed_scans }}
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+
+                <div class="card-body">
+
+                    <h5 class="fw-bold mb-4">
+                        Verification Results
+                    </h5>
+
+                    <canvas id="resultChart"></canvas>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+
+                <div class="card-body">
+
+                    <h5 class="fw-bold mb-4">
+                        Device Distribution
+                    </h5>
+
+                    <canvas id="deviceChart"></canvas>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card border-0 shadow-sm mb-4">
+
+    <div class="card-header bg-white py-3">
+
+        <div class="d-flex justify-content-between
+                    align-items-center">
+
+            <h5 class="fw-bold mb-0">
+                Geographic Scan Distribution
+            </h5>
+
+            <span class="badge bg-primary">
+                {{ map_points | length }} Locations
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="card-body p-0">
+
+        {% if map_points %}
+
+            <div id="scanMap"></div>
+
+        {% else %}
+
+            <div class="text-center text-muted py-5">
+                No geographic scan data is available.
+            </div>
+
+        {% endif %}
+
+    </div>
+
+    </div>
+
+    <div class="card border-0 shadow-sm">
+
+        <div class="card-header bg-white py-3">
+            <h5 class="fw-bold mb-0">
+                Recent Verification Activity
+            </h5>
+        </div>
+
+        <div class="table-responsive">
+
+            <table class="table table-hover align-middle mb-0">
+
+                <thead>
+                    <tr>
+                        <th>Time (UTC)</th>
+                        <th>Drug ID</th>
+                        <th>Result</th>
+                        <th>Device</th>
+                        <th>Browser</th>
+                        <th>OS</th>
+                        <th>City</th>
+                        <th>Region</th>
+                        <th>Country</th>
+                        <th>Coordinates</th>
+                        <th>Risk</th>
+                        <th>Client IP</th>
+                        <th>Alert</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    {% for log in recent_logs %}
+
+<tr>
+    <td>{{ log.scan_time }}</td>
+
+    <td class="fw-semibold">
+        {{ log.drug_id }}
+    </td>
+
+    <td>
+        <span class="badge
+            {% if log.result == 'GENUINE' %}
+                bg-success
+            {% elif log.result == 'REVOKED' %}
+                bg-danger
+            {% else %}
+                bg-warning text-dark
+            {% endif %}">
+            {{ log.result }}
+        </span>
+    </td>
+
+    <td>
+        {{ log.device or "Unknown" }}
+    </td>
+
+    <td>
+        {{ log.browser or "Unknown" }}
+    </td>
+
+    <td>
+        {{ log.operating_system or "Unknown" }}
+    </td>
+
+    <td>
+        {{ log.city or "Unknown" }}
+    </td>
+
+    <td>
+        {{ log.region or "Unknown" }}
+    </td>
+
+    <td>
+        {{ log.country or "Unknown" }}
+    </td>
+
+    <!-- Coordinates -->
+    <td class="small">
+        {% if log.latitude is not none
+              and log.longitude is not none %}
+
+            {{ "%.4f"|format(log.latitude) }},
+            {{ "%.4f"|format(log.longitude) }}
+
+        {% else %}
+            Not available
+        {% endif %}
+    </td>
+
+    <!-- Risk -->
+    <td>
+        {% if log.risk_score >= 70 %}
+         <span class="badge bg-danger">
+                Revoked Drug
+            </span>
+
+        {% elif log.risk_score >= 30 %}
+            <span class="badge bg-warning text-dark">
+                Medium — {{ log.risk_score }}
+            </span>
+
+        {% else %}
+            <span class="badge bg-success">
+                Low — {{ log.risk_score }}
+            </span>
+        {% endif %}
+    </td>
+
+    <!-- Client IP -->
+    <td class="small text-break">
+        {{ log.forwarded_ip
+           or log.ip_address
+           or "Unknown" }}
+    </td>
+
+    <!-- Alert -->
+    <td class="small">
+        {{ log.alert or "No suspicious activity" }}
+    </td>
+
+</tr>
+
+{% else %}
+
+<tr>
+    <td colspan="13"
+        class="text-center py-4 text-muted">
+
+        No QR scans have been recorded.
+
+    </td>
+</tr>
+
+{% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+<style>
+    #scanMap {
+        width: 100%;
+        height: 500px;
+        border-radius: 0 0 0.375rem 0.375rem;
+    }
+
+    .map-popup-title {
+        font-weight: 700;
+        margin-bottom: 6px;
+    }
+
+    .map-popup-row {
+        margin-bottom: 4px;
+    }
+</style>
+
+<script>
+    const mapPoints = {{ map_points | tojson }};
+
+    if (mapPoints.length > 0) {
+
+        const scanMap = L.map("scanMap");
+
+        L.tileLayer(
+            "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            {
+                maxZoom: 19,
+                attribution:
+                    "&copy; OpenStreetMap contributors"
+            }
+        ).addTo(scanMap);
+
+        const bounds = [];
+
+        mapPoints.forEach((point) => {
+
+            const coordinates = [
+                point.latitude,
+                point.longitude
+            ];
+
+            bounds.push(coordinates);
+
+            let markerColor = "green";
+
+            if (point.risk_score >= 70) {
+                markerColor = "red";
+            } else if (point.risk_score >= 30) {
+                markerColor = "orange";
+            }
+
+            const marker = L.circleMarker(
+                coordinates,
+                {
+                    radius: 9,
+                    color: markerColor,
+                    fillColor: markerColor,
+                    fillOpacity: 0.75,
+                    weight: 2
+                }
+            ).addTo(scanMap);
+
+            const popupContent = `
+                <div class="map-popup-title">
+                    Drug ${point.drug_id}
+                </div>
+
+                <div class="map-popup-row">
+                    <strong>Result:</strong>
+                    ${point.result}
+                </div>
+
+                <div class="map-popup-row">
+                    <strong>Location:</strong>
+                    ${point.city},
+                    ${point.region},
+                    ${point.country}
+                </div>
+
+                <div class="map-popup-row">
+                    <strong>Risk Score:</strong>
+                    ${point.risk_score}
+                </div>
+
+                <div class="map-popup-row">
+                    <strong>Alert:</strong>
+                    ${point.alert}
+                </div>
+
+                <div class="map-popup-row">
+                    <strong>Scan Time:</strong>
+                    ${point.scan_time} UTC
+                </div>
+            `;
+
+            marker.bindPopup(popupContent);
+        });
+
+        scanMap.fitBounds(
+            bounds,
+            {
+                padding: [30, 30],
+                maxZoom: 12
+            }
+        );
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    new Chart(
+        document.getElementById("resultChart"),
+        {
+            type: "doughnut",
+            data: {
+                labels: {{ result_labels | tojson }},
+                datasets: [{
+                    data: {{ result_values | tojson }}
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true
+            }
+        }
+    );
+
+    new Chart(
+        document.getElementById("deviceChart"),
+        {
+            type: "bar",
+            data: {
+                labels: {{ device_labels | tojson }},
+                datasets: [{
+                    label: "QR Scans",
+                    data: {{ device_values | tojson }}
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0
+                        }
+                    }
+                }
+            }
+        }
+    );
+</script>
+
+{% endblock %}

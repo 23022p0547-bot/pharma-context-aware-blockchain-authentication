@@ -1,0 +1,10 @@
+ValidationCriterion,Passed,Total,Rate_percent
+Final owner consistency,1000,1000,100.0
+History completeness,1000,1000,100.0
+QR-hash stability,1000,1000,100.0
+H0 consistency,1000,1000,100.0
+H1 consistency,1000,1000,100.0
+H2 consistency,1000,1000,100.0
+H3 consistency,1000,1000,100.0
+Complete ownership chain,1000,1000,100.0
+Overall provenance,1000,1000,100.0

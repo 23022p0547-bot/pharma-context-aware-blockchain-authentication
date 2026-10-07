@@ -1,0 +1,29 @@
+scenario,status,expected_score,observed_score,expected_level,observed_level,alert,explanation,recommendation,result
+Normal Genuine Scan,GENUINE,0,0,LOW,LOW,None,"Blockchain verification successful.
+Drug status is ACTIVE.
+Scan location: Vijayawada, India.
+No suspicious activity detected.",Safe to dispense.,PASS
+Revoked Product,REVOKED,70,70,HIGH,HIGH,A revoked pharmaceutical product was scanned.,"Drug has been revoked by the manufacturer or regulator.
+Scan location: Vijayawada, India.
+High counterfeit risk detected.",Do NOT dispense. Quarantine the product immediately.,PASS
+QR Hash Mismatch,QR_MISMATCH,90,90,HIGH,HIGH,Blockchain verification failed or QR data is invalid.,"Blockchain verification failed.
+High counterfeit risk detected.",Possible counterfeit product. Do not purchase or dispense.,PASS
+Gateway Unavailable,GATEWAY_UNAVAILABLE,50,50,MEDIUM,MEDIUM,Verification could not be completed due to a system error.,"Blockchain verification failed.
+Moderate suspicious behaviour detected.",Possible counterfeit product. Do not purchase or dispense.,PASS
+Repeated Scan,GENUINE,10,10,LOW,LOW,The same QR code was scanned at least three times within one minute.,"Blockchain verification successful.
+Drug status is ACTIVE.
+No suspicious activity detected.",Safe to dispense.,PASS
+Excessive Scan Frequency,GENUINE,20,20,LOW,LOW,Excessive scan frequency was detected within ten minutes.,"Blockchain verification successful.
+Drug status is ACTIVE.
+No suspicious activity detected.",Safe to dispense.,PASS
+Repeated and Excessive Scans,GENUINE,30,30,MEDIUM,MEDIUM,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes.,"Blockchain verification successful.
+Drug status is ACTIVE.
+Moderate suspicious behaviour detected.",Safe to dispense.,PASS
+Impossible Geographic Movement,GENUINE,40,40,MEDIUM,MEDIUM,A possible impossible-travel pattern was detected: 13135.4 km in 0.08 hours.,"Blockchain verification successful.
+Drug status is ACTIVE.
+Scan location: New York, United States.
+Moderate suspicious behaviour detected.",Safe to dispense.,PASS
+Combined Behavioural and Geographic Risk,GENUINE,70,70,HIGH,HIGH,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.4 km in 0.08 hours.,"Blockchain verification successful.
+Drug status is ACTIVE.
+Scan location: New York, United States.
+High counterfeit risk detected.",Safe to dispense.,PASS

@@ -1,0 +1,4 @@
+Stage,N,Mean_ms,Median_ms,Std_ms,Min_ms,Max_ms,P95_ms,P99_ms,CV_percent
+Manufacturer → Distributor,1000,2126.347,2138.411,40.911,2062.302,2745.766,2170.027,2223.207,1.924
+Distributor → Wholesaler,1000,2118.79,2129.912,41.378,2056.524,2823.176,2160.42,2209.625,1.953
+Wholesaler → Retail Outlet,1000,2117.37,2128.025,35.67,2057.241,2301.81,2158.621,2203.301,1.685

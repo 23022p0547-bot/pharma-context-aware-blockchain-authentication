@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}
+Verify Drug | PharmaChain
+{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-7">
+
+<div class="card shadow border-0">
+
+<div class="card-header bg-success text-white">
+
+<h3 class="mb-0">
+Consumer Drug Verification
+</h3>
+
+</div>
+
+<div class="card-body">
+
+<form
+action="{{ url_for('upload_qr') }}"
+method="POST"
+enctype="multipart/form-data">
+
+<div class="mb-4">
+
+<label class="form-label">
+
+Upload QR Code Image
+
+</label>
+
+<input
+class="form-control"
+type="file"
+name="qrimage"
+accept="image/*"
+required>
+
+</div>
+
+<div class="d-grid">
+
+<button
+class="btn btn-success btn-lg">
+
+Verify Drug
+
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+{% endblock %}

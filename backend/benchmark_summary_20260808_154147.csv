@@ -1,0 +1,5 @@
+operation,trials,min_ms,max_ms,mean_ms,median_ms,std_dev_ms
+RegisterDrug,20,2066.669,3850.689,2177.001,2082.83,394.501
+VerifyDrug,20,9.915,68.371,16.159,13.676,12.398
+TransferOwnership,20,2069.846,2148.467,2093.111,2087.298,21.782
+RevokeDrug,20,2064.523,2102.481,2077.498,2077.674,9.339

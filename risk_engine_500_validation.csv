@@ -1,0 +1,501 @@
+event_id,drug_id,scenario,expected_class,risk_score,risk_level,predicted_class,correct,alert
+1,BENCH_0001,Normal Genuine Scan,0,0,LOW,0,1,
+2,BENCH_0002,Normal Genuine Scan,0,0,LOW,0,1,
+3,BENCH_0003,Normal Genuine Scan,0,0,LOW,0,1,
+4,BENCH_0004,Normal Genuine Scan,0,0,LOW,0,1,
+5,BENCH_0005,Normal Genuine Scan,0,0,LOW,0,1,
+6,BENCH_0006,Normal Genuine Scan,0,0,LOW,0,1,
+7,BENCH_0007,Normal Genuine Scan,0,0,LOW,0,1,
+8,BENCH_0008,Normal Genuine Scan,0,0,LOW,0,1,
+9,BENCH_0009,Normal Genuine Scan,0,0,LOW,0,1,
+10,BENCH_0010,Normal Genuine Scan,0,0,LOW,0,1,
+11,BENCH_0011,Normal Genuine Scan,0,0,LOW,0,1,
+12,BENCH_0012,Normal Genuine Scan,0,0,LOW,0,1,
+13,BENCH_0013,Normal Genuine Scan,0,0,LOW,0,1,
+14,BENCH_0014,Normal Genuine Scan,0,0,LOW,0,1,
+15,BENCH_0015,Normal Genuine Scan,0,0,LOW,0,1,
+16,BENCH_0016,Normal Genuine Scan,0,0,LOW,0,1,
+17,BENCH_0017,Normal Genuine Scan,0,0,LOW,0,1,
+18,BENCH_0018,Normal Genuine Scan,0,0,LOW,0,1,
+19,BENCH_0019,Normal Genuine Scan,0,0,LOW,0,1,
+20,BENCH_0020,Normal Genuine Scan,0,0,LOW,0,1,
+21,BENCH_0021,Normal Genuine Scan,0,0,LOW,0,1,
+22,BENCH_0022,Normal Genuine Scan,0,0,LOW,0,1,
+23,BENCH_0023,Normal Genuine Scan,0,0,LOW,0,1,
+24,BENCH_0024,Normal Genuine Scan,0,0,LOW,0,1,
+25,BENCH_0025,Normal Genuine Scan,0,0,LOW,0,1,
+26,BENCH_0026,Normal Genuine Scan,0,0,LOW,0,1,
+27,BENCH_0027,Normal Genuine Scan,0,0,LOW,0,1,
+28,BENCH_0028,Normal Genuine Scan,0,0,LOW,0,1,
+29,BENCH_0029,Normal Genuine Scan,0,0,LOW,0,1,
+30,BENCH_0030,Normal Genuine Scan,0,0,LOW,0,1,
+31,BENCH_0031,Normal Genuine Scan,0,0,LOW,0,1,
+32,BENCH_0032,Normal Genuine Scan,0,0,LOW,0,1,
+33,BENCH_0033,Normal Genuine Scan,0,0,LOW,0,1,
+34,BENCH_0034,Normal Genuine Scan,0,0,LOW,0,1,
+35,BENCH_0035,Normal Genuine Scan,0,0,LOW,0,1,
+36,BENCH_0036,Normal Genuine Scan,0,0,LOW,0,1,
+37,BENCH_0037,Normal Genuine Scan,0,0,LOW,0,1,
+38,BENCH_0038,Normal Genuine Scan,0,0,LOW,0,1,
+39,BENCH_0039,Normal Genuine Scan,0,0,LOW,0,1,
+40,BENCH_0040,Normal Genuine Scan,0,0,LOW,0,1,
+41,BENCH_0041,Normal Genuine Scan,0,0,LOW,0,1,
+42,BENCH_0042,Normal Genuine Scan,0,0,LOW,0,1,
+43,BENCH_0043,Normal Genuine Scan,0,0,LOW,0,1,
+44,BENCH_0044,Normal Genuine Scan,0,0,LOW,0,1,
+45,BENCH_0045,Normal Genuine Scan,0,0,LOW,0,1,
+46,BENCH_0046,Normal Genuine Scan,0,0,LOW,0,1,
+47,BENCH_0047,Normal Genuine Scan,0,0,LOW,0,1,
+48,BENCH_0048,Normal Genuine Scan,0,0,LOW,0,1,
+49,BENCH_0049,Normal Genuine Scan,0,0,LOW,0,1,
+50,BENCH_0050,Normal Genuine Scan,0,0,LOW,0,1,
+51,BENCH_0051,Normal Genuine Scan,0,0,LOW,0,1,
+52,BENCH_0052,Normal Genuine Scan,0,0,LOW,0,1,
+53,BENCH_0053,Normal Genuine Scan,0,0,LOW,0,1,
+54,BENCH_0054,Normal Genuine Scan,0,0,LOW,0,1,
+55,BENCH_0055,Normal Genuine Scan,0,0,LOW,0,1,
+56,BENCH_0056,Normal Genuine Scan,0,0,LOW,0,1,
+57,BENCH_0057,Normal Genuine Scan,0,0,LOW,0,1,
+58,BENCH_0058,Normal Genuine Scan,0,0,LOW,0,1,
+59,BENCH_0059,Normal Genuine Scan,0,0,LOW,0,1,
+60,BENCH_0060,Normal Genuine Scan,0,0,LOW,0,1,
+61,BENCH_0061,Normal Genuine Scan,0,0,LOW,0,1,
+62,BENCH_0062,Normal Genuine Scan,0,0,LOW,0,1,
+63,BENCH_0063,Normal Genuine Scan,0,0,LOW,0,1,
+64,BENCH_0064,Normal Genuine Scan,0,0,LOW,0,1,
+65,BENCH_0065,Normal Genuine Scan,0,0,LOW,0,1,
+66,BENCH_0066,Normal Genuine Scan,0,0,LOW,0,1,
+67,BENCH_0067,Normal Genuine Scan,0,0,LOW,0,1,
+68,BENCH_0068,Normal Genuine Scan,0,0,LOW,0,1,
+69,BENCH_0069,Normal Genuine Scan,0,0,LOW,0,1,
+70,BENCH_0070,Normal Genuine Scan,0,0,LOW,0,1,
+71,BENCH_0071,Normal Genuine Scan,0,0,LOW,0,1,
+72,BENCH_0072,Normal Genuine Scan,0,0,LOW,0,1,
+73,BENCH_0073,Normal Genuine Scan,0,0,LOW,0,1,
+74,BENCH_0074,Normal Genuine Scan,0,0,LOW,0,1,
+75,BENCH_0075,Normal Genuine Scan,0,0,LOW,0,1,
+76,BENCH_0076,Normal Genuine Scan,0,0,LOW,0,1,
+77,BENCH_0077,Normal Genuine Scan,0,0,LOW,0,1,
+78,BENCH_0078,Normal Genuine Scan,0,0,LOW,0,1,
+79,BENCH_0079,Normal Genuine Scan,0,0,LOW,0,1,
+80,BENCH_0080,Normal Genuine Scan,0,0,LOW,0,1,
+81,BENCH_0081,Normal Genuine Scan,0,0,LOW,0,1,
+82,BENCH_0082,Normal Genuine Scan,0,0,LOW,0,1,
+83,BENCH_0083,Normal Genuine Scan,0,0,LOW,0,1,
+84,BENCH_0084,Normal Genuine Scan,0,0,LOW,0,1,
+85,BENCH_0085,Normal Genuine Scan,0,0,LOW,0,1,
+86,BENCH_0086,Normal Genuine Scan,0,0,LOW,0,1,
+87,BENCH_0087,Normal Genuine Scan,0,0,LOW,0,1,
+88,BENCH_0088,Normal Genuine Scan,0,0,LOW,0,1,
+89,BENCH_0089,Normal Genuine Scan,0,0,LOW,0,1,
+90,BENCH_0090,Normal Genuine Scan,0,0,LOW,0,1,
+91,BENCH_0091,Normal Genuine Scan,0,0,LOW,0,1,
+92,BENCH_0092,Normal Genuine Scan,0,0,LOW,0,1,
+93,BENCH_0093,Normal Genuine Scan,0,0,LOW,0,1,
+94,BENCH_0094,Normal Genuine Scan,0,0,LOW,0,1,
+95,BENCH_0095,Normal Genuine Scan,0,0,LOW,0,1,
+96,BENCH_0096,Normal Genuine Scan,0,0,LOW,0,1,
+97,BENCH_0097,Normal Genuine Scan,0,0,LOW,0,1,
+98,BENCH_0098,Normal Genuine Scan,0,0,LOW,0,1,
+99,BENCH_0099,Normal Genuine Scan,0,0,LOW,0,1,
+100,BENCH_0100,Normal Genuine Scan,0,0,LOW,0,1,
+101,BENCH_0101,Legitimate Single Repeat,0,0,LOW,0,1,
+102,BENCH_0102,Legitimate Single Repeat,0,0,LOW,0,1,
+103,BENCH_0103,Legitimate Single Repeat,0,0,LOW,0,1,
+104,BENCH_0104,Legitimate Single Repeat,0,0,LOW,0,1,
+105,BENCH_0105,Legitimate Single Repeat,0,0,LOW,0,1,
+106,BENCH_0106,Legitimate Single Repeat,0,0,LOW,0,1,
+107,BENCH_0107,Legitimate Single Repeat,0,0,LOW,0,1,
+108,BENCH_0108,Legitimate Single Repeat,0,0,LOW,0,1,
+109,BENCH_0109,Legitimate Single Repeat,0,0,LOW,0,1,
+110,BENCH_0110,Legitimate Single Repeat,0,0,LOW,0,1,
+111,BENCH_0111,Legitimate Single Repeat,0,0,LOW,0,1,
+112,BENCH_0112,Legitimate Single Repeat,0,0,LOW,0,1,
+113,BENCH_0113,Legitimate Single Repeat,0,0,LOW,0,1,
+114,BENCH_0114,Legitimate Single Repeat,0,0,LOW,0,1,
+115,BENCH_0115,Legitimate Single Repeat,0,0,LOW,0,1,
+116,BENCH_0116,Legitimate Single Repeat,0,0,LOW,0,1,
+117,BENCH_0117,Legitimate Single Repeat,0,0,LOW,0,1,
+118,BENCH_0118,Legitimate Single Repeat,0,0,LOW,0,1,
+119,BENCH_0119,Legitimate Single Repeat,0,0,LOW,0,1,
+120,BENCH_0120,Legitimate Single Repeat,0,0,LOW,0,1,
+121,BENCH_0121,Legitimate Single Repeat,0,0,LOW,0,1,
+122,BENCH_0122,Legitimate Single Repeat,0,0,LOW,0,1,
+123,BENCH_0123,Legitimate Single Repeat,0,0,LOW,0,1,
+124,BENCH_0124,Legitimate Single Repeat,0,0,LOW,0,1,
+125,BENCH_0125,Legitimate Single Repeat,0,0,LOW,0,1,
+126,BENCH_0126,Legitimate Single Repeat,0,0,LOW,0,1,
+127,BENCH_0127,Legitimate Single Repeat,0,0,LOW,0,1,
+128,BENCH_0128,Legitimate Single Repeat,0,0,LOW,0,1,
+129,BENCH_0129,Legitimate Single Repeat,0,0,LOW,0,1,
+130,BENCH_0130,Legitimate Single Repeat,0,0,LOW,0,1,
+131,BENCH_0131,Legitimate Single Repeat,0,0,LOW,0,1,
+132,BENCH_0132,Legitimate Single Repeat,0,0,LOW,0,1,
+133,BENCH_0133,Legitimate Single Repeat,0,0,LOW,0,1,
+134,BENCH_0134,Legitimate Single Repeat,0,0,LOW,0,1,
+135,BENCH_0135,Legitimate Single Repeat,0,0,LOW,0,1,
+136,BENCH_0136,Legitimate Single Repeat,0,0,LOW,0,1,
+137,BENCH_0137,Legitimate Single Repeat,0,0,LOW,0,1,
+138,BENCH_0138,Legitimate Single Repeat,0,0,LOW,0,1,
+139,BENCH_0139,Legitimate Single Repeat,0,0,LOW,0,1,
+140,BENCH_0140,Legitimate Single Repeat,0,0,LOW,0,1,
+141,BENCH_0141,Legitimate Single Repeat,0,0,LOW,0,1,
+142,BENCH_0142,Legitimate Single Repeat,0,0,LOW,0,1,
+143,BENCH_0143,Legitimate Single Repeat,0,0,LOW,0,1,
+144,BENCH_0144,Legitimate Single Repeat,0,0,LOW,0,1,
+145,BENCH_0145,Legitimate Single Repeat,0,0,LOW,0,1,
+146,BENCH_0146,Legitimate Single Repeat,0,0,LOW,0,1,
+147,BENCH_0147,Legitimate Single Repeat,0,0,LOW,0,1,
+148,BENCH_0148,Legitimate Single Repeat,0,0,LOW,0,1,
+149,BENCH_0149,Legitimate Single Repeat,0,0,LOW,0,1,
+150,BENCH_0150,Legitimate Single Repeat,0,0,LOW,0,1,
+151,BENCH_0151,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+152,BENCH_0152,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+153,BENCH_0153,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+154,BENCH_0154,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+155,BENCH_0155,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+156,BENCH_0156,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+157,BENCH_0157,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+158,BENCH_0158,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+159,BENCH_0159,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+160,BENCH_0160,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+161,BENCH_0161,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+162,BENCH_0162,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+163,BENCH_0163,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+164,BENCH_0164,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+165,BENCH_0165,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+166,BENCH_0166,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+167,BENCH_0167,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+168,BENCH_0168,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+169,BENCH_0169,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+170,BENCH_0170,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+171,BENCH_0171,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+172,BENCH_0172,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+173,BENCH_0173,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+174,BENCH_0174,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+175,BENCH_0175,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+176,BENCH_0176,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+177,BENCH_0177,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+178,BENCH_0178,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+179,BENCH_0179,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+180,BENCH_0180,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+181,BENCH_0181,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+182,BENCH_0182,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+183,BENCH_0183,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+184,BENCH_0184,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+185,BENCH_0185,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+186,BENCH_0186,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+187,BENCH_0187,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+188,BENCH_0188,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+189,BENCH_0189,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+190,BENCH_0190,Repeated Scan,0,10,LOW,0,1,The same QR code was scanned at least three times within one minute.
+191,BENCH_0191,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+192,BENCH_0192,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+193,BENCH_0193,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+194,BENCH_0194,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+195,BENCH_0195,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+196,BENCH_0196,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+197,BENCH_0197,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+198,BENCH_0198,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+199,BENCH_0199,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+200,BENCH_0200,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+201,BENCH_0201,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+202,BENCH_0202,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+203,BENCH_0203,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+204,BENCH_0204,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+205,BENCH_0205,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+206,BENCH_0206,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+207,BENCH_0207,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+208,BENCH_0208,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+209,BENCH_0209,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+210,BENCH_0210,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+211,BENCH_0211,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+212,BENCH_0212,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+213,BENCH_0213,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+214,BENCH_0214,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+215,BENCH_0215,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+216,BENCH_0216,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+217,BENCH_0217,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+218,BENCH_0218,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+219,BENCH_0219,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+220,BENCH_0220,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+221,BENCH_0221,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+222,BENCH_0222,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+223,BENCH_0223,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+224,BENCH_0224,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+225,BENCH_0225,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+226,BENCH_0226,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+227,BENCH_0227,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+228,BENCH_0228,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+229,BENCH_0229,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+230,BENCH_0230,Excessive Scan Frequency,0,20,LOW,0,1,Excessive scan frequency was detected within ten minutes.
+231,BENCH_0231,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+232,BENCH_0232,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+233,BENCH_0233,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+234,BENCH_0234,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+235,BENCH_0235,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+236,BENCH_0236,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+237,BENCH_0237,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+238,BENCH_0238,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+239,BENCH_0239,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+240,BENCH_0240,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+241,BENCH_0241,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+242,BENCH_0242,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+243,BENCH_0243,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+244,BENCH_0244,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+245,BENCH_0245,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+246,BENCH_0246,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+247,BENCH_0247,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+248,BENCH_0248,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+249,BENCH_0249,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+250,BENCH_0250,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+251,BENCH_0251,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+252,BENCH_0252,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+253,BENCH_0253,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+254,BENCH_0254,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+255,BENCH_0255,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+256,BENCH_0256,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+257,BENCH_0257,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+258,BENCH_0258,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+259,BENCH_0259,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+260,BENCH_0260,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+261,BENCH_0261,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+262,BENCH_0262,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+263,BENCH_0263,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+264,BENCH_0264,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+265,BENCH_0265,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+266,BENCH_0266,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+267,BENCH_0267,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+268,BENCH_0268,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+269,BENCH_0269,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+270,BENCH_0270,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+271,BENCH_0271,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+272,BENCH_0272,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+273,BENCH_0273,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+274,BENCH_0274,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+275,BENCH_0275,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+276,BENCH_0276,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+277,BENCH_0277,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+278,BENCH_0278,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+279,BENCH_0279,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+280,BENCH_0280,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+281,BENCH_0281,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+282,BENCH_0282,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+283,BENCH_0283,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+284,BENCH_0284,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+285,BENCH_0285,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+286,BENCH_0286,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+287,BENCH_0287,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+288,BENCH_0288,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+289,BENCH_0289,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+290,BENCH_0290,QR Hash Mismatch,1,90,HIGH,1,1,Blockchain verification failed or QR data is invalid.
+291,BENCH_0291,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+292,BENCH_0292,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+293,BENCH_0293,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+294,BENCH_0294,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+295,BENCH_0295,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+296,BENCH_0296,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+297,BENCH_0297,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+298,BENCH_0298,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+299,BENCH_0299,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+300,BENCH_0300,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+301,BENCH_0301,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+302,BENCH_0302,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+303,BENCH_0303,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+304,BENCH_0304,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+305,BENCH_0305,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+306,BENCH_0306,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+307,BENCH_0307,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+308,BENCH_0308,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+309,BENCH_0309,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+310,BENCH_0310,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+311,BENCH_0311,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+312,BENCH_0312,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+313,BENCH_0313,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+314,BENCH_0314,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+315,BENCH_0315,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+316,BENCH_0316,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+317,BENCH_0317,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+318,BENCH_0318,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+319,BENCH_0319,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+320,BENCH_0320,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+321,BENCH_0321,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+322,BENCH_0322,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+323,BENCH_0323,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+324,BENCH_0324,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+325,BENCH_0325,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+326,BENCH_0326,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+327,BENCH_0327,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+328,BENCH_0328,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+329,BENCH_0329,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+330,BENCH_0330,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+331,BENCH_0331,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+332,BENCH_0332,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+333,BENCH_0333,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+334,BENCH_0334,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+335,BENCH_0335,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+336,BENCH_0336,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+337,BENCH_0337,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+338,BENCH_0338,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+339,BENCH_0339,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+340,BENCH_0340,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+341,BENCH_0341,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+342,BENCH_0342,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+343,BENCH_0343,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+344,BENCH_0344,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+345,BENCH_0345,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+346,BENCH_0346,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+347,BENCH_0347,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+348,BENCH_0348,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+349,BENCH_0349,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+350,BENCH_0350,Revoked Product,1,70,HIGH,1,1,A revoked pharmaceutical product was scanned.
+351,BENCH_0351,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+352,BENCH_0352,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+353,BENCH_0353,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+354,BENCH_0354,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+355,BENCH_0355,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+356,BENCH_0356,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+357,BENCH_0357,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+358,BENCH_0358,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+359,BENCH_0359,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+360,BENCH_0360,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+361,BENCH_0361,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+362,BENCH_0362,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+363,BENCH_0363,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+364,BENCH_0364,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+365,BENCH_0365,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+366,BENCH_0366,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+367,BENCH_0367,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+368,BENCH_0368,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+369,BENCH_0369,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+370,BENCH_0370,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+371,BENCH_0371,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+372,BENCH_0372,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+373,BENCH_0373,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+374,BENCH_0374,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+375,BENCH_0375,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+376,BENCH_0376,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+377,BENCH_0377,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+378,BENCH_0378,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+379,BENCH_0379,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+380,BENCH_0380,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+381,BENCH_0381,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+382,BENCH_0382,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+383,BENCH_0383,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+384,BENCH_0384,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+385,BENCH_0385,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+386,BENCH_0386,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+387,BENCH_0387,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+388,BENCH_0388,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+389,BENCH_0389,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+390,BENCH_0390,Gateway Failure,1,50,MEDIUM,1,1,Verification could not be completed due to a system error.
+391,BENCH_0391,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+392,BENCH_0392,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+393,BENCH_0393,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+394,BENCH_0394,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+395,BENCH_0395,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+396,BENCH_0396,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+397,BENCH_0397,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+398,BENCH_0398,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+399,BENCH_0399,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+400,BENCH_0400,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+401,BENCH_0401,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+402,BENCH_0402,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+403,BENCH_0403,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+404,BENCH_0404,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+405,BENCH_0405,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+406,BENCH_0406,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+407,BENCH_0407,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+408,BENCH_0408,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+409,BENCH_0409,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+410,BENCH_0410,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+411,BENCH_0411,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+412,BENCH_0412,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+413,BENCH_0413,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+414,BENCH_0414,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+415,BENCH_0415,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+416,BENCH_0416,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+417,BENCH_0417,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+418,BENCH_0418,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+419,BENCH_0419,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+420,BENCH_0420,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+421,BENCH_0421,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+422,BENCH_0422,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+423,BENCH_0423,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+424,BENCH_0424,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+425,BENCH_0425,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+426,BENCH_0426,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+427,BENCH_0427,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+428,BENCH_0428,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+429,BENCH_0429,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+430,BENCH_0430,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+431,BENCH_0431,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+432,BENCH_0432,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+433,BENCH_0433,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+434,BENCH_0434,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+435,BENCH_0435,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+436,BENCH_0436,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+437,BENCH_0437,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+438,BENCH_0438,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+439,BENCH_0439,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+440,BENCH_0440,Impossible Geographic Movement,1,40,MEDIUM,1,1,A possible impossible-travel pattern was detected: 13135.7 km in 0.17 hours.
+441,BENCH_0441,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+442,BENCH_0442,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+443,BENCH_0443,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+444,BENCH_0444,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+445,BENCH_0445,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+446,BENCH_0446,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+447,BENCH_0447,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+448,BENCH_0448,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+449,BENCH_0449,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+450,BENCH_0450,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+451,BENCH_0451,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+452,BENCH_0452,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+453,BENCH_0453,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+454,BENCH_0454,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+455,BENCH_0455,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+456,BENCH_0456,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+457,BENCH_0457,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+458,BENCH_0458,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+459,BENCH_0459,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+460,BENCH_0460,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+461,BENCH_0461,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+462,BENCH_0462,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+463,BENCH_0463,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+464,BENCH_0464,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+465,BENCH_0465,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+466,BENCH_0466,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+467,BENCH_0467,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+468,BENCH_0468,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+469,BENCH_0469,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+470,BENCH_0470,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+471,BENCH_0471,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+472,BENCH_0472,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+473,BENCH_0473,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+474,BENCH_0474,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+475,BENCH_0475,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+476,BENCH_0476,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+477,BENCH_0477,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+478,BENCH_0478,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+479,BENCH_0479,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+480,BENCH_0480,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+481,BENCH_0481,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+482,BENCH_0482,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+483,BENCH_0483,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+484,BENCH_0484,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+485,BENCH_0485,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+486,BENCH_0486,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+487,BENCH_0487,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+488,BENCH_0488,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+489,BENCH_0489,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+490,BENCH_0490,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+491,BENCH_0491,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+492,BENCH_0492,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+493,BENCH_0493,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+494,BENCH_0494,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+495,BENCH_0495,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+496,BENCH_0496,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+497,BENCH_0497,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+498,BENCH_0498,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+499,BENCH_0499,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.
+500,BENCH_0500,Combined Behavioural Geographic Risk,1,70,HIGH,1,1,The same QR code was scanned at least three times within one minute. | Excessive scan frequency was detected within ten minutes. | A possible impossible-travel pattern was detected: 13135.7 km in 0.01 hours.

@@ -1,0 +1,21 @@
+log_id,drug_id,forwarded_ip,city,region,country,latitude,longitude,device,browser,operating_system,available_fields,total_fields,completeness_percent
+79,D001,59.93.110.250,Gudivāda,Andhra Pradesh,India,16.4325,80.995,Desktop,Unknown,Unknown,7,9,77.78
+78,D001,103.214.62.208,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+77,D001,117.211.169.156,Kozhikode,Kerala,India,11.2448,75.7721,Desktop,Unknown,Unknown,7,9,77.78
+76,D001,103.214.62.156,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+75,D001,103.214.62.208,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+74,D001,103.214.62.156,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+73,D001,103.214.62.208,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+72,D001,117.211.169.156,Kozhikode,Kerala,India,11.2448,75.7721,Desktop,Unknown,Unknown,7,9,77.78
+71,D001,103.214.62.156,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+70,D001,59.93.110.250,Gudivāda,Andhra Pradesh,India,16.4325,80.995,Desktop,Unknown,Unknown,7,9,77.78
+69,D001,103.214.62.156,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+68,D001,103.214.62.208,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+67,D001,202.53.87.6,Eluru,Andhra Pradesh,India,16.7182,81.1041,Desktop,Unknown,Unknown,7,9,77.78
+66,D001,103.214.62.156,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+65,D001,103.214.62.156,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+64,D001,103.214.62.156,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+63,D001,59.93.110.250,Gudivāda,Andhra Pradesh,India,16.4325,80.995,Desktop,Unknown,Unknown,7,9,77.78
+62,D001,103.214.62.208,Vijayawada,Andhra Pradesh,India,16.5033,80.6465,Desktop,Unknown,Unknown,7,9,77.78
+61,D001,59.93.110.250,Gudivāda,Andhra Pradesh,India,16.4325,80.995,Desktop,Unknown,Unknown,7,9,77.78
+60,D001,202.53.87.6,Eluru,Andhra Pradesh,India,16.7182,81.1041,Desktop,Unknown,Unknown,7,9,77.78

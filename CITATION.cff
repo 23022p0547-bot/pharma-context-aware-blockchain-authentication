@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived software release and the associated manuscript."
+title: "Context-Aware Blockchain Framework for Pharmaceutical Drug Authentication with Explainable Counterfeit Risk Assessment"
+type: software
+authors:
+  - family-names: "Koneru"
+    given-names: "Sudhir"
+version: 1.0.0
+date-released: 2026-10-07
+abstract: "Research prototype implementing a Hyperledger Fabric pharmaceutical lifecycle, blockchain-linked QR verification, contextual verification evidence, deterministic explainable risk assessment, and experimental evaluation scripts."
+keywords:
+  - blockchain
+  - Hyperledger Fabric
+  - pharmaceutical authentication
+  - QR verification
+  - counterfeit risk assessment
+  - provenance
+  - explainable risk

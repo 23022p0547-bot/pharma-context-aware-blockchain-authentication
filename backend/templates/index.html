@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+
+{% block title %}
+Dashboard | PharmaChain
+{% endblock %}
+
+{% block content %}
+
+<section class="hero-section">
+    <div class="container py-5">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+
+                <span class="badge bg-light text-primary mb-3 px-3 py-2">
+                    Blockchain-Based Drug Traceability
+                </span>
+
+                <h1 class="display-5 fw-bold">
+                    Pharmaceutical Drug Authentication System
+                </h1>
+
+                <p class="lead mt-3">
+                    Verify pharmaceutical products, trace ownership,
+                    detect counterfeit drugs and maintain immutable
+                    supply-chain records using Hyperledger Fabric.
+                </p>
+
+            </div>
+
+            <div class="col-lg-5">
+
+                <div class="search-card">
+
+                    <h4 class="fw-bold mb-3">
+                        Search Blockchain Record
+                    </h4>
+
+                    <form id="drugSearchForm">
+
+                        <label for="drugId"
+                               class="form-label">
+                            Enter Drug ID
+                        </label>
+
+                        <input type="text"
+                               id="drugId"
+                               class="form-control form-control-lg"
+                               placeholder="Example: D001"
+                               required>
+
+                        <button type="submit"
+                                class="btn btn-success btn-lg w-100 mt-3">
+                            Search Drug
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="container dashboard-section">
+
+    <div class="row g-4">
+
+        {% if current_user.role in ["ADMIN", "MANUFACTURER"] %}
+        <div class="col-md-6 col-lg-3">
+            <div class="feature-card h-100">
+
+                <div class="feature-icon">01</div>
+
+                <h5>Register Drug</h5>
+
+                <p>
+                    Create a secure pharmaceutical record and store it
+                    permanently on the blockchain.
+                </p>
+
+                <a href="{{ url_for('register') }}"
+                   class="btn btn-outline-primary">
+                    Register
+                </a>
+
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="col-md-6 col-lg-3">
+            <div class="feature-card h-100">
+
+                <div class="feature-icon">02</div>
+
+                <h5>Verify Drug</h5>
+
+                <p>
+                    Authenticate a pharmaceutical product using its Drug
+                    ID or QR-code hash.
+                </p>
+
+                <a href="{{ url_for('verify_page') }}"
+                   class="btn btn-outline-success">
+                    Verify
+                </a>
+
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="feature-card h-100">
+
+                <div class="feature-icon">03</div>
+
+                <h5>Ownership History</h5>
+
+                <p>
+                    Examine every ownership transfer recorded in the
+                    immutable blockchain ledger.
+                </p>
+
+                <a href="{{ url_for('history_page') }}"
+                   class="btn btn-outline-primary">
+                    View History
+                </a>
+
+            </div>
+        </div>
+
+        {% if current_user.role in ["ADMIN", "MANUFACTURER", "REGULATOR"] %}
+        <div class="col-md-6 col-lg-3">
+            <div class="feature-card h-100">
+
+                <div class="feature-icon">04</div>
+
+                <h5>Revoke Drug</h5>
+
+                <p>
+                    Mark recalled, damaged or suspicious pharmaceutical
+                    products as revoked.
+                </p>
+
+                <a href="{{ url_for('revoke_page') }}"
+                   class="btn btn-outline-danger">
+                    Revoke
+                </a>
+
+            </div>
+        </div>
+        {% endif %}
+
+    </div>
+
+</section>
+
+<section class="container mt-5">
+
+    <div class="technology-card">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-8">
+
+                <h3 class="fw-bold">
+                    End-to-End Blockchain Architecture
+                </h3>
+
+                <p class="mb-lg-0">
+                    Browser → Flask Web Application → Node.js Fabric
+                    Gateway → Hyperledger Fabric → CouchDB World State
+                </p>
+
+            </div>
+
+            <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+
+                <span class="status-indicator">
+                    Blockchain Connected
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+    document.getElementById("drugSearchForm")
+        .addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            const drugId =
+                document.getElementById("drugId").value.trim();
+
+            if (drugId) {
+                window.location.href =
+                    "/drug/" + encodeURIComponent(drugId);
+            }
+        });
+</script>
+
+{% endblock %}

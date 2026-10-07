@@ -1,0 +1,501 @@
+event_id,scenario,expected_class,risk_score,risk_level,predicted_class,correct
+199,QR Hash Mismatch,1,90,HIGH,1,1
+39,Normal Genuine Scan,0,0,LOW,0,1
+231,Revoked Product,1,70,HIGH,1,1
+105,Normal Genuine Scan,0,0,LOW,0,1
+347,Excessive Scan Frequency,0,20,LOW,0,1
+228,Revoked Product,1,70,HIGH,1,1
+279,Revoked Product,1,70,HIGH,1,1
+208,QR Hash Mismatch,1,90,HIGH,1,1
+150,Normal Genuine Scan,0,0,LOW,0,1
+246,Revoked Product,1,70,HIGH,1,1
+300,Repeated Scan,0,10,LOW,0,1
+392,Geographic Anomaly,1,40,MEDIUM,1,1
+129,Normal Genuine Scan,0,0,LOW,0,1
+118,Normal Genuine Scan,0,0,LOW,0,1
+73,Normal Genuine Scan,0,0,LOW,0,1
+424,Geographic Anomaly,1,40,MEDIUM,1,1
+421,Geographic Anomaly,1,40,MEDIUM,1,1
+108,Normal Genuine Scan,0,0,LOW,0,1
+438,Gateway/System Failure,1,50,MEDIUM,1,1
+243,Revoked Product,1,70,HIGH,1,1
+24,Normal Genuine Scan,0,0,LOW,0,1
+386,Excessive Scan Frequency,0,20,LOW,0,1
+117,Normal Genuine Scan,0,0,LOW,0,1
+298,Repeated Scan,0,10,LOW,0,1
+256,Revoked Product,1,70,HIGH,1,1
+426,Geographic Anomaly,1,40,MEDIUM,1,1
+61,Normal Genuine Scan,0,0,LOW,0,1
+11,Normal Genuine Scan,0,0,LOW,0,1
+106,Normal Genuine Scan,0,0,LOW,0,1
+292,Repeated Scan,0,10,LOW,0,1
+223,Revoked Product,1,70,HIGH,1,1
+99,Normal Genuine Scan,0,0,LOW,0,1
+5,Normal Genuine Scan,0,0,LOW,0,1
+9,Normal Genuine Scan,0,0,LOW,0,1
+305,Repeated Scan,0,10,LOW,0,1
+88,Normal Genuine Scan,0,0,LOW,0,1
+336,Repeated Scan,0,10,LOW,0,1
+363,Excessive Scan Frequency,0,20,LOW,0,1
+417,Geographic Anomaly,1,40,MEDIUM,1,1
+483,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+51,Normal Genuine Scan,0,0,LOW,0,1
+356,Excessive Scan Frequency,0,20,LOW,0,1
+269,Revoked Product,1,70,HIGH,1,1
+354,Excessive Scan Frequency,0,20,LOW,0,1
+266,Revoked Product,1,70,HIGH,1,1
+255,Revoked Product,1,70,HIGH,1,1
+406,Geographic Anomaly,1,40,MEDIUM,1,1
+368,Excessive Scan Frequency,0,20,LOW,0,1
+189,QR Hash Mismatch,1,90,HIGH,1,1
+127,Normal Genuine Scan,0,0,LOW,0,1
+52,Normal Genuine Scan,0,0,LOW,0,1
+342,Excessive Scan Frequency,0,20,LOW,0,1
+405,Geographic Anomaly,1,40,MEDIUM,1,1
+46,Normal Genuine Scan,0,0,LOW,0,1
+371,Excessive Scan Frequency,0,20,LOW,0,1
+400,Geographic Anomaly,1,40,MEDIUM,1,1
+123,Normal Genuine Scan,0,0,LOW,0,1
+451,Gateway/System Failure,1,50,MEDIUM,1,1
+47,Normal Genuine Scan,0,0,LOW,0,1
+272,Revoked Product,1,70,HIGH,1,1
+468,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+27,Normal Genuine Scan,0,0,LOW,0,1
+230,Revoked Product,1,70,HIGH,1,1
+372,Excessive Scan Frequency,0,20,LOW,0,1
+222,Revoked Product,1,70,HIGH,1,1
+384,Excessive Scan Frequency,0,20,LOW,0,1
+18,Normal Genuine Scan,0,0,LOW,0,1
+260,Revoked Product,1,70,HIGH,1,1
+202,QR Hash Mismatch,1,90,HIGH,1,1
+391,Geographic Anomaly,1,40,MEDIUM,1,1
+357,Excessive Scan Frequency,0,20,LOW,0,1
+343,Excessive Scan Frequency,0,20,LOW,0,1
+374,Excessive Scan Frequency,0,20,LOW,0,1
+155,QR Hash Mismatch,1,90,HIGH,1,1
+186,QR Hash Mismatch,1,90,HIGH,1,1
+217,QR Hash Mismatch,1,90,HIGH,1,1
+437,Gateway/System Failure,1,50,MEDIUM,1,1
+35,Normal Genuine Scan,0,0,LOW,0,1
+365,Excessive Scan Frequency,0,20,LOW,0,1
+359,Excessive Scan Frequency,0,20,LOW,0,1
+239,Revoked Product,1,70,HIGH,1,1
+454,Gateway/System Failure,1,50,MEDIUM,1,1
+218,QR Hash Mismatch,1,90,HIGH,1,1
+191,QR Hash Mismatch,1,90,HIGH,1,1
+210,QR Hash Mismatch,1,90,HIGH,1,1
+110,Normal Genuine Scan,0,0,LOW,0,1
+312,Repeated Scan,0,10,LOW,0,1
+22,Normal Genuine Scan,0,0,LOW,0,1
+151,QR Hash Mismatch,1,90,HIGH,1,1
+469,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+140,Normal Genuine Scan,0,0,LOW,0,1
+383,Excessive Scan Frequency,0,20,LOW,0,1
+142,Normal Genuine Scan,0,0,LOW,0,1
+367,Excessive Scan Frequency,0,20,LOW,0,1
+412,Geographic Anomaly,1,40,MEDIUM,1,1
+455,Gateway/System Failure,1,50,MEDIUM,1,1
+252,Revoked Product,1,70,HIGH,1,1
+482,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+315,Repeated Scan,0,10,LOW,0,1
+434,Gateway/System Failure,1,50,MEDIUM,1,1
+116,Normal Genuine Scan,0,0,LOW,0,1
+335,Repeated Scan,0,10,LOW,0,1
+86,Normal Genuine Scan,0,0,LOW,0,1
+122,Normal Genuine Scan,0,0,LOW,0,1
+109,Normal Genuine Scan,0,0,LOW,0,1
+144,Normal Genuine Scan,0,0,LOW,0,1
+6,Normal Genuine Scan,0,0,LOW,0,1
+370,Excessive Scan Frequency,0,20,LOW,0,1
+325,Repeated Scan,0,10,LOW,0,1
+278,Revoked Product,1,70,HIGH,1,1
+96,Normal Genuine Scan,0,0,LOW,0,1
+474,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+63,Normal Genuine Scan,0,0,LOW,0,1
+443,Gateway/System Failure,1,50,MEDIUM,1,1
+238,Revoked Product,1,70,HIGH,1,1
+339,Repeated Scan,0,10,LOW,0,1
+214,QR Hash Mismatch,1,90,HIGH,1,1
+200,QR Hash Mismatch,1,90,HIGH,1,1
+458,Gateway/System Failure,1,50,MEDIUM,1,1
+72,Normal Genuine Scan,0,0,LOW,0,1
+311,Repeated Scan,0,10,LOW,0,1
+198,QR Hash Mismatch,1,90,HIGH,1,1
+398,Geographic Anomaly,1,40,MEDIUM,1,1
+430,Geographic Anomaly,1,40,MEDIUM,1,1
+234,Revoked Product,1,70,HIGH,1,1
+498,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+206,QR Hash Mismatch,1,90,HIGH,1,1
+397,Geographic Anomaly,1,40,MEDIUM,1,1
+295,Repeated Scan,0,10,LOW,0,1
+338,Repeated Scan,0,10,LOW,0,1
+176,QR Hash Mismatch,1,90,HIGH,1,1
+324,Repeated Scan,0,10,LOW,0,1
+131,Normal Genuine Scan,0,0,LOW,0,1
+141,Normal Genuine Scan,0,0,LOW,0,1
+196,QR Hash Mismatch,1,90,HIGH,1,1
+317,Repeated Scan,0,10,LOW,0,1
+420,Geographic Anomaly,1,40,MEDIUM,1,1
+263,Revoked Product,1,70,HIGH,1,1
+410,Geographic Anomaly,1,40,MEDIUM,1,1
+112,Normal Genuine Scan,0,0,LOW,0,1
+15,Normal Genuine Scan,0,0,LOW,0,1
+77,Normal Genuine Scan,0,0,LOW,0,1
+232,Revoked Product,1,70,HIGH,1,1
+316,Repeated Scan,0,10,LOW,0,1
+139,Normal Genuine Scan,0,0,LOW,0,1
+439,Gateway/System Failure,1,50,MEDIUM,1,1
+291,Repeated Scan,0,10,LOW,0,1
+16,Normal Genuine Scan,0,0,LOW,0,1
+427,Geographic Anomaly,1,40,MEDIUM,1,1
+436,Gateway/System Failure,1,50,MEDIUM,1,1
+288,Revoked Product,1,70,HIGH,1,1
+396,Geographic Anomaly,1,40,MEDIUM,1,1
+401,Geographic Anomaly,1,40,MEDIUM,1,1
+197,QR Hash Mismatch,1,90,HIGH,1,1
+414,Geographic Anomaly,1,40,MEDIUM,1,1
+488,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+313,Repeated Scan,0,10,LOW,0,1
+184,QR Hash Mismatch,1,90,HIGH,1,1
+75,Normal Genuine Scan,0,0,LOW,0,1
+373,Excessive Scan Frequency,0,20,LOW,0,1
+34,Normal Genuine Scan,0,0,LOW,0,1
+163,QR Hash Mismatch,1,90,HIGH,1,1
+60,Normal Genuine Scan,0,0,LOW,0,1
+80,Normal Genuine Scan,0,0,LOW,0,1
+158,QR Hash Mismatch,1,90,HIGH,1,1
+462,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+268,Revoked Product,1,70,HIGH,1,1
+309,Repeated Scan,0,10,LOW,0,1
+194,QR Hash Mismatch,1,90,HIGH,1,1
+205,QR Hash Mismatch,1,90,HIGH,1,1
+465,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+59,Normal Genuine Scan,0,0,LOW,0,1
+219,QR Hash Mismatch,1,90,HIGH,1,1
+253,Revoked Product,1,70,HIGH,1,1
+192,QR Hash Mismatch,1,90,HIGH,1,1
+45,Normal Genuine Scan,0,0,LOW,0,1
+393,Geographic Anomaly,1,40,MEDIUM,1,1
+143,Normal Genuine Scan,0,0,LOW,0,1
+351,Excessive Scan Frequency,0,20,LOW,0,1
+257,Revoked Product,1,70,HIGH,1,1
+460,Gateway/System Failure,1,50,MEDIUM,1,1
+361,Excessive Scan Frequency,0,20,LOW,0,1
+306,Repeated Scan,0,10,LOW,0,1
+100,Normal Genuine Scan,0,0,LOW,0,1
+475,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+321,Repeated Scan,0,10,LOW,0,1
+470,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+82,Normal Genuine Scan,0,0,LOW,0,1
+337,Repeated Scan,0,10,LOW,0,1
+94,Normal Genuine Scan,0,0,LOW,0,1
+254,Revoked Product,1,70,HIGH,1,1
+87,Normal Genuine Scan,0,0,LOW,0,1
+248,Revoked Product,1,70,HIGH,1,1
+4,Normal Genuine Scan,0,0,LOW,0,1
+403,Geographic Anomaly,1,40,MEDIUM,1,1
+358,Excessive Scan Frequency,0,20,LOW,0,1
+182,QR Hash Mismatch,1,90,HIGH,1,1
+327,Repeated Scan,0,10,LOW,0,1
+487,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+37,Normal Genuine Scan,0,0,LOW,0,1
+497,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+432,Gateway/System Failure,1,50,MEDIUM,1,1
+121,Normal Genuine Scan,0,0,LOW,0,1
+381,Excessive Scan Frequency,0,20,LOW,0,1
+245,Revoked Product,1,70,HIGH,1,1
+242,Revoked Product,1,70,HIGH,1,1
+160,QR Hash Mismatch,1,90,HIGH,1,1
+180,QR Hash Mismatch,1,90,HIGH,1,1
+492,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+477,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+3,Normal Genuine Scan,0,0,LOW,0,1
+65,Normal Genuine Scan,0,0,LOW,0,1
+181,QR Hash Mismatch,1,90,HIGH,1,1
+174,QR Hash Mismatch,1,90,HIGH,1,1
+120,Normal Genuine Scan,0,0,LOW,0,1
+227,Revoked Product,1,70,HIGH,1,1
+7,Normal Genuine Scan,0,0,LOW,0,1
+362,Excessive Scan Frequency,0,20,LOW,0,1
+399,Geographic Anomaly,1,40,MEDIUM,1,1
+244,Revoked Product,1,70,HIGH,1,1
+284,Revoked Product,1,70,HIGH,1,1
+307,Repeated Scan,0,10,LOW,0,1
+496,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+289,Revoked Product,1,70,HIGH,1,1
+360,Excessive Scan Frequency,0,20,LOW,0,1
+375,Excessive Scan Frequency,0,20,LOW,0,1
+346,Excessive Scan Frequency,0,20,LOW,0,1
+183,QR Hash Mismatch,1,90,HIGH,1,1
+29,Normal Genuine Scan,0,0,LOW,0,1
+378,Excessive Scan Frequency,0,20,LOW,0,1
+491,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+258,Revoked Product,1,70,HIGH,1,1
+390,Excessive Scan Frequency,0,20,LOW,0,1
+30,Normal Genuine Scan,0,0,LOW,0,1
+209,QR Hash Mismatch,1,90,HIGH,1,1
+2,Normal Genuine Scan,0,0,LOW,0,1
+124,Normal Genuine Scan,0,0,LOW,0,1
+463,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+314,Repeated Scan,0,10,LOW,0,1
+435,Gateway/System Failure,1,50,MEDIUM,1,1
+445,Gateway/System Failure,1,50,MEDIUM,1,1
+423,Geographic Anomaly,1,40,MEDIUM,1,1
+212,QR Hash Mismatch,1,90,HIGH,1,1
+446,Gateway/System Failure,1,50,MEDIUM,1,1
+353,Excessive Scan Frequency,0,20,LOW,0,1
+173,QR Hash Mismatch,1,90,HIGH,1,1
+10,Normal Genuine Scan,0,0,LOW,0,1
+21,Normal Genuine Scan,0,0,LOW,0,1
+78,Normal Genuine Scan,0,0,LOW,0,1
+293,Repeated Scan,0,10,LOW,0,1
+476,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+64,Normal Genuine Scan,0,0,LOW,0,1
+296,Repeated Scan,0,10,LOW,0,1
+428,Geographic Anomaly,1,40,MEDIUM,1,1
+303,Repeated Scan,0,10,LOW,0,1
+332,Repeated Scan,0,10,LOW,0,1
+55,Normal Genuine Scan,0,0,LOW,0,1
+53,Normal Genuine Scan,0,0,LOW,0,1
+149,Normal Genuine Scan,0,0,LOW,0,1
+111,Normal Genuine Scan,0,0,LOW,0,1
+267,Revoked Product,1,70,HIGH,1,1
+240,Revoked Product,1,70,HIGH,1,1
+62,Normal Genuine Scan,0,0,LOW,0,1
+172,QR Hash Mismatch,1,90,HIGH,1,1
+485,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+235,Revoked Product,1,70,HIGH,1,1
+416,Geographic Anomaly,1,40,MEDIUM,1,1
+36,Normal Genuine Scan,0,0,LOW,0,1
+167,QR Hash Mismatch,1,90,HIGH,1,1
+340,Repeated Scan,0,10,LOW,0,1
+464,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+380,Excessive Scan Frequency,0,20,LOW,0,1
+334,Repeated Scan,0,10,LOW,0,1
+221,Revoked Product,1,70,HIGH,1,1
+146,Normal Genuine Scan,0,0,LOW,0,1
+275,Revoked Product,1,70,HIGH,1,1
+402,Geographic Anomaly,1,40,MEDIUM,1,1
+457,Gateway/System Failure,1,50,MEDIUM,1,1
+145,Normal Genuine Scan,0,0,LOW,0,1
+66,Normal Genuine Scan,0,0,LOW,0,1
+213,QR Hash Mismatch,1,90,HIGH,1,1
+1,Normal Genuine Scan,0,0,LOW,0,1
+493,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+285,Revoked Product,1,70,HIGH,1,1
+330,Repeated Scan,0,10,LOW,0,1
+484,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+54,Normal Genuine Scan,0,0,LOW,0,1
+168,QR Hash Mismatch,1,90,HIGH,1,1
+500,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+294,Repeated Scan,0,10,LOW,0,1
+178,QR Hash Mismatch,1,90,HIGH,1,1
+308,Repeated Scan,0,10,LOW,0,1
+270,Revoked Product,1,70,HIGH,1,1
+479,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+103,Normal Genuine Scan,0,0,LOW,0,1
+169,QR Hash Mismatch,1,90,HIGH,1,1
+271,Revoked Product,1,70,HIGH,1,1
+350,Excessive Scan Frequency,0,20,LOW,0,1
+382,Excessive Scan Frequency,0,20,LOW,0,1
+366,Excessive Scan Frequency,0,20,LOW,0,1
+247,Revoked Product,1,70,HIGH,1,1
+132,Normal Genuine Scan,0,0,LOW,0,1
+274,Revoked Product,1,70,HIGH,1,1
+385,Excessive Scan Frequency,0,20,LOW,0,1
+459,Gateway/System Failure,1,50,MEDIUM,1,1
+364,Excessive Scan Frequency,0,20,LOW,0,1
+478,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+126,Normal Genuine Scan,0,0,LOW,0,1
+494,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+433,Gateway/System Failure,1,50,MEDIUM,1,1
+249,Revoked Product,1,70,HIGH,1,1
+499,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+28,Normal Genuine Scan,0,0,LOW,0,1
+429,Geographic Anomaly,1,40,MEDIUM,1,1
+38,Normal Genuine Scan,0,0,LOW,0,1
+456,Gateway/System Failure,1,50,MEDIUM,1,1
+418,Geographic Anomaly,1,40,MEDIUM,1,1
+193,QR Hash Mismatch,1,90,HIGH,1,1
+276,Revoked Product,1,70,HIGH,1,1
+81,Normal Genuine Scan,0,0,LOW,0,1
+70,Normal Genuine Scan,0,0,LOW,0,1
+92,Normal Genuine Scan,0,0,LOW,0,1
+48,Normal Genuine Scan,0,0,LOW,0,1
+211,QR Hash Mismatch,1,90,HIGH,1,1
+329,Repeated Scan,0,10,LOW,0,1
+166,QR Hash Mismatch,1,90,HIGH,1,1
+89,Normal Genuine Scan,0,0,LOW,0,1
+157,QR Hash Mismatch,1,90,HIGH,1,1
+40,Normal Genuine Scan,0,0,LOW,0,1
+76,Normal Genuine Scan,0,0,LOW,0,1
+125,Normal Genuine Scan,0,0,LOW,0,1
+352,Excessive Scan Frequency,0,20,LOW,0,1
+195,QR Hash Mismatch,1,90,HIGH,1,1
+164,QR Hash Mismatch,1,90,HIGH,1,1
+68,Normal Genuine Scan,0,0,LOW,0,1
+50,Normal Genuine Scan,0,0,LOW,0,1
+489,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+290,Revoked Product,1,70,HIGH,1,1
+408,Geographic Anomaly,1,40,MEDIUM,1,1
+74,Normal Genuine Scan,0,0,LOW,0,1
+153,QR Hash Mismatch,1,90,HIGH,1,1
+13,Normal Genuine Scan,0,0,LOW,0,1
+207,QR Hash Mismatch,1,90,HIGH,1,1
+442,Gateway/System Failure,1,50,MEDIUM,1,1
+419,Geographic Anomaly,1,40,MEDIUM,1,1
+241,Revoked Product,1,70,HIGH,1,1
+395,Geographic Anomaly,1,40,MEDIUM,1,1
+107,Normal Genuine Scan,0,0,LOW,0,1
+14,Normal Genuine Scan,0,0,LOW,0,1
+220,QR Hash Mismatch,1,90,HIGH,1,1
+233,Revoked Product,1,70,HIGH,1,1
+19,Normal Genuine Scan,0,0,LOW,0,1
+188,QR Hash Mismatch,1,90,HIGH,1,1
+447,Gateway/System Failure,1,50,MEDIUM,1,1
+480,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+264,Revoked Product,1,70,HIGH,1,1
+452,Gateway/System Failure,1,50,MEDIUM,1,1
+20,Normal Genuine Scan,0,0,LOW,0,1
+25,Normal Genuine Scan,0,0,LOW,0,1
+49,Normal Genuine Scan,0,0,LOW,0,1
+322,Repeated Scan,0,10,LOW,0,1
+154,QR Hash Mismatch,1,90,HIGH,1,1
+349,Excessive Scan Frequency,0,20,LOW,0,1
+326,Repeated Scan,0,10,LOW,0,1
+161,QR Hash Mismatch,1,90,HIGH,1,1
+156,QR Hash Mismatch,1,90,HIGH,1,1
+265,Revoked Product,1,70,HIGH,1,1
+281,Revoked Product,1,70,HIGH,1,1
+171,QR Hash Mismatch,1,90,HIGH,1,1
+444,Gateway/System Failure,1,50,MEDIUM,1,1
+26,Normal Genuine Scan,0,0,LOW,0,1
+85,Normal Genuine Scan,0,0,LOW,0,1
+135,Normal Genuine Scan,0,0,LOW,0,1
+170,QR Hash Mismatch,1,90,HIGH,1,1
+376,Excessive Scan Frequency,0,20,LOW,0,1
+42,Normal Genuine Scan,0,0,LOW,0,1
+318,Repeated Scan,0,10,LOW,0,1
+466,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+425,Geographic Anomaly,1,40,MEDIUM,1,1
+251,Revoked Product,1,70,HIGH,1,1
+448,Gateway/System Failure,1,50,MEDIUM,1,1
+152,QR Hash Mismatch,1,90,HIGH,1,1
+67,Normal Genuine Scan,0,0,LOW,0,1
+175,QR Hash Mismatch,1,90,HIGH,1,1
+301,Repeated Scan,0,10,LOW,0,1
+473,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+224,Revoked Product,1,70,HIGH,1,1
+299,Repeated Scan,0,10,LOW,0,1
+134,Normal Genuine Scan,0,0,LOW,0,1
+250,Revoked Product,1,70,HIGH,1,1
+328,Repeated Scan,0,10,LOW,0,1
+101,Normal Genuine Scan,0,0,LOW,0,1
+229,Revoked Product,1,70,HIGH,1,1
+467,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+461,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+83,Normal Genuine Scan,0,0,LOW,0,1
+389,Excessive Scan Frequency,0,20,LOW,0,1
+162,QR Hash Mismatch,1,90,HIGH,1,1
+344,Excessive Scan Frequency,0,20,LOW,0,1
+407,Geographic Anomaly,1,40,MEDIUM,1,1
+490,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+323,Repeated Scan,0,10,LOW,0,1
+133,Normal Genuine Scan,0,0,LOW,0,1
+379,Excessive Scan Frequency,0,20,LOW,0,1
+387,Excessive Scan Frequency,0,20,LOW,0,1
+8,Normal Genuine Scan,0,0,LOW,0,1
+93,Normal Genuine Scan,0,0,LOW,0,1
+472,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+90,Normal Genuine Scan,0,0,LOW,0,1
+159,QR Hash Mismatch,1,90,HIGH,1,1
+190,QR Hash Mismatch,1,90,HIGH,1,1
+12,Normal Genuine Scan,0,0,LOW,0,1
+310,Repeated Scan,0,10,LOW,0,1
+115,Normal Genuine Scan,0,0,LOW,0,1
+277,Revoked Product,1,70,HIGH,1,1
+486,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+201,QR Hash Mismatch,1,90,HIGH,1,1
+226,Revoked Product,1,70,HIGH,1,1
+17,Normal Genuine Scan,0,0,LOW,0,1
+130,Normal Genuine Scan,0,0,LOW,0,1
+41,Normal Genuine Scan,0,0,LOW,0,1
+33,Normal Genuine Scan,0,0,LOW,0,1
+102,Normal Genuine Scan,0,0,LOW,0,1
+56,Normal Genuine Scan,0,0,LOW,0,1
+225,Revoked Product,1,70,HIGH,1,1
+450,Gateway/System Failure,1,50,MEDIUM,1,1
+57,Normal Genuine Scan,0,0,LOW,0,1
+165,QR Hash Mismatch,1,90,HIGH,1,1
+148,Normal Genuine Scan,0,0,LOW,0,1
+411,Geographic Anomaly,1,40,MEDIUM,1,1
+236,Revoked Product,1,70,HIGH,1,1
+495,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+104,Normal Genuine Scan,0,0,LOW,0,1
+273,Revoked Product,1,70,HIGH,1,1
+453,Gateway/System Failure,1,50,MEDIUM,1,1
+471,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+237,Revoked Product,1,70,HIGH,1,1
+280,Revoked Product,1,70,HIGH,1,1
+304,Repeated Scan,0,10,LOW,0,1
+113,Normal Genuine Scan,0,0,LOW,0,1
+348,Excessive Scan Frequency,0,20,LOW,0,1
+69,Normal Genuine Scan,0,0,LOW,0,1
+44,Normal Genuine Scan,0,0,LOW,0,1
+137,Normal Genuine Scan,0,0,LOW,0,1
+320,Repeated Scan,0,10,LOW,0,1
+377,Excessive Scan Frequency,0,20,LOW,0,1
+187,QR Hash Mismatch,1,90,HIGH,1,1
+422,Geographic Anomaly,1,40,MEDIUM,1,1
+71,Normal Genuine Scan,0,0,LOW,0,1
+262,Revoked Product,1,70,HIGH,1,1
+286,Revoked Product,1,70,HIGH,1,1
+415,Geographic Anomaly,1,40,MEDIUM,1,1
+23,Normal Genuine Scan,0,0,LOW,0,1
+32,Normal Genuine Scan,0,0,LOW,0,1
+345,Excessive Scan Frequency,0,20,LOW,0,1
+259,Revoked Product,1,70,HIGH,1,1
+388,Excessive Scan Frequency,0,20,LOW,0,1
+409,Geographic Anomaly,1,40,MEDIUM,1,1
+297,Repeated Scan,0,10,LOW,0,1
+98,Normal Genuine Scan,0,0,LOW,0,1
+282,Revoked Product,1,70,HIGH,1,1
+413,Geographic Anomaly,1,40,MEDIUM,1,1
+341,Excessive Scan Frequency,0,20,LOW,0,1
+369,Excessive Scan Frequency,0,20,LOW,0,1
+394,Geographic Anomaly,1,40,MEDIUM,1,1
+43,Normal Genuine Scan,0,0,LOW,0,1
+147,Normal Genuine Scan,0,0,LOW,0,1
+177,QR Hash Mismatch,1,90,HIGH,1,1
+97,Normal Genuine Scan,0,0,LOW,0,1
+138,Normal Genuine Scan,0,0,LOW,0,1
+333,Repeated Scan,0,10,LOW,0,1
+84,Normal Genuine Scan,0,0,LOW,0,1
+114,Normal Genuine Scan,0,0,LOW,0,1
+440,Gateway/System Failure,1,50,MEDIUM,1,1
+449,Gateway/System Failure,1,50,MEDIUM,1,1
+185,QR Hash Mismatch,1,90,HIGH,1,1
+58,Normal Genuine Scan,0,0,LOW,0,1
+481,Combined Behavioural + Geographic Risk,1,70,HIGH,1,1
+128,Normal Genuine Scan,0,0,LOW,0,1
+179,QR Hash Mismatch,1,90,HIGH,1,1
+216,QR Hash Mismatch,1,90,HIGH,1,1
+283,Revoked Product,1,70,HIGH,1,1
+119,Normal Genuine Scan,0,0,LOW,0,1
+331,Repeated Scan,0,10,LOW,0,1
+215,QR Hash Mismatch,1,90,HIGH,1,1
+136,Normal Genuine Scan,0,0,LOW,0,1
+287,Revoked Product,1,70,HIGH,1,1
+95,Normal Genuine Scan,0,0,LOW,0,1
+31,Normal Genuine Scan,0,0,LOW,0,1
+355,Excessive Scan Frequency,0,20,LOW,0,1
+404,Geographic Anomaly,1,40,MEDIUM,1,1
+441,Gateway/System Failure,1,50,MEDIUM,1,1
+431,Gateway/System Failure,1,50,MEDIUM,1,1
+261,Revoked Product,1,70,HIGH,1,1
+91,Normal Genuine Scan,0,0,LOW,0,1
+203,QR Hash Mismatch,1,90,HIGH,1,1
+302,Repeated Scan,0,10,LOW,0,1
+79,Normal Genuine Scan,0,0,LOW,0,1
+319,Repeated Scan,0,10,LOW,0,1
+204,QR Hash Mismatch,1,90,HIGH,1,1

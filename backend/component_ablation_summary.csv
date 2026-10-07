@@ -1,0 +1,7 @@
+removedComponent,cases,unchangedClassifications,changedClassifications,decisionAgreementRatePercent,meanAbsoluteScoreChange,meanSignedScoreChange,classTransitions
+Critical Verification Failure,9,8,1,88.89,10.0,-10.0,HIGH->LOW:1
+Gateway/System Failure,9,8,1,88.89,5.56,-5.56,MEDIUM->LOW:1
+Revoked Product,9,8,1,88.89,7.78,-7.78,HIGH->LOW:1
+Repeated Scan,9,8,1,88.89,2.22,-2.22,HIGH->MEDIUM:1
+Excessive Scan Frequency,9,8,1,88.89,4.44,-4.44,HIGH->MEDIUM:1
+Geographic Anomaly,9,7,2,77.78,8.89,-8.89,HIGH->MEDIUM:1; MEDIUM->LOW:1

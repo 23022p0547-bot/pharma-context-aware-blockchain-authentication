@@ -1,0 +1,195 @@
+{% extends "base.html" %}
+
+{% block title %}
+Verification Result | PharmaChain
+{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-7">
+
+            <div class="card border-0 shadow-sm">
+
+                <div class="card-body p-4 p-md-5 text-center">
+
+                    {% if result.isValid %}
+
+                        <div class="verification-result authentic">
+
+                            <div class="verification-symbol">
+                                ✓
+                            </div>
+
+                            <h2 class="fw-bold">
+                                Genuine Pharmaceutical Product
+                            </h2>
+
+                            <p class="lead">
+                                The QR code matches an active record on
+                                the Hyperledger Fabric blockchain.
+                            </p>
+
+                            <span class="badge bg-success fs-6">
+                                {{ result.status }}
+                            </span>
+
+                        </div>
+
+                    {% else %}
+
+                        <div class="verification-result revoked">
+
+                            <div class="verification-symbol">
+                                !
+                            </div>
+
+                            <h2 class="fw-bold">
+                                Verification Failed
+                            </h2>
+
+                            <p class="lead">
+                                {{ result.message }}
+                            </p>
+
+                            <span class="badge bg-danger fs-6">
+                                {{ result.status }}
+                            </span>
+
+                        </div>
+
+                    {% endif %}
+
+                    {% if result.risk_level %}
+
+                        <div class="card border-0 shadow-sm mt-4 text-start">
+
+                            <div class="card-header bg-dark text-white text-center">
+
+                                <h4 class="mb-0">
+                                    Counterfeit Risk Assessment
+                                </h4>
+
+                            </div>
+
+                            <div class="card-body">
+
+                                <div class="row text-center g-3">
+
+                                    <div class="col-md-4">
+
+                                        <h6>Risk Level</h6>
+
+                                        {% if result.risk_level == "HIGH" %}
+
+                                            <span class="badge bg-danger fs-6">
+                                                {{ result.risk_level }}
+                                            </span>
+
+                                        {% elif result.risk_level == "MEDIUM" %}
+
+                                            <span class="badge bg-warning text-dark fs-6">
+                                                {{ result.risk_level }}
+                                            </span>
+
+                                        {% else %}
+
+                                            <span class="badge bg-success fs-6">
+                                                {{ result.risk_level }}
+                                            </span>
+
+                                        {% endif %}
+
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <h6>Risk Score</h6>
+
+                                        <h3 class="mb-0">
+                                            {{ result.risk_score }}/100
+                                        </h3>
+
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <h6>Verification</h6>
+
+                                        <strong>
+                                            {{ result.status }}
+                                        </strong>
+
+                                    </div>
+
+                                </div>
+
+                                <hr>
+
+                                <h5>Explanation</h5>
+
+                                <div class="alert alert-info">
+
+                                    <div style="white-space: pre-line;">
+                                        {{ result.explanation }}
+                                    </div>
+
+                                </div>
+
+                                <h5>Recommendation</h5>
+
+                                <div class="
+                                    alert
+                                    {% if result.risk_level == 'HIGH' %}
+                                        alert-danger
+                                    {% elif result.risk_level == 'MEDIUM' %}
+                                        alert-warning
+                                    {% else %}
+                                        alert-success
+                                    {% endif %}
+                                ">
+
+                                    {{ result.recommendation }}
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    {% endif %}
+
+                    <div class="mt-4">
+
+                        <p>
+                            <strong>Drug ID:</strong>
+                            {{ drug_id }}
+                        </p>
+
+                        <a href="{{ url_for('view_drug',
+                                           drug_id=drug_id) }}"
+                           class="btn btn-primary">
+                            View Drug Record
+                        </a>
+
+                        <a href="{{ url_for('home') }}"
+                           class="btn btn-outline-secondary">
+                            Dashboard
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

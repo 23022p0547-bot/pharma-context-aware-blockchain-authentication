@@ -1,0 +1,6 @@
+concurrency,requests,successful,failed,success_rate_percent,total_time_seconds,throughput_requests_per_second,mean_latency_ms,median_latency_ms,p95_latency_ms,minimum_latency_ms,maximum_latency_ms
+1,100,100,0,100.0,1.278,78.217,12.697,9.006,20.775,7.087,131.681
+5,100,100,0,100.0,0.684,146.193,33.237,31.373,47.279,23.531,50.295
+10,100,100,0,100.0,1.014,98.654,98.867,66.05,372.575,35.683,455.622
+20,100,100,0,100.0,0.583,171.66,107.79,111.544,126.181,34.801,131.893
+50,100,100,0,100.0,1.109,90.192,444.858,478.261,587.51,45.426,607.567

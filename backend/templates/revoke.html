@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}
+Revoke Drug | PharmaChain
+{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-7">
+
+            <div class="card border-0 shadow-sm">
+
+                <div class="card-header bg-danger text-white">
+
+                    <h3 class="mb-0">
+                        Revoke Pharmaceutical Drug
+                    </h3>
+
+                </div>
+
+                <div class="card-body p-4">
+
+                    <div class="alert alert-warning">
+                        Revocation is permanent on the blockchain.
+                        Use this function only for recalled, damaged,
+                        compromised, or suspicious pharmaceutical products.
+                    </div>
+
+                    <form method="POST"
+                          action="{{ url_for('revoke_drug') }}">
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Drug ID
+                            </label>
+
+                            <input type="text"
+                                   name="drugID"
+                                   class="form-control form-control-lg"
+                                   placeholder="Example: D006"
+                                   value="{{ drug_id or '' }}"
+                                   required>
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+                                Revocation Reason
+                            </label>
+
+                            <textarea name="reason"
+                                      class="form-control"
+                                      rows="4"
+                                      placeholder="Example: Manufacturer recall due to quality-control failure"
+                                      required></textarea>
+
+                        </div>
+
+                        <div class="d-grid">
+
+                            <button type="submit"
+                                    class="btn btn-danger btn-lg">
+
+                                Revoke Drug on Blockchain
+
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

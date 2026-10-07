@@ -1,0 +1,347 @@
+{% extends "base.html" %}
+
+{% block title %}
+Drug History | PharmaChain
+{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-10">
+
+            <!-- Drug History Search Card -->
+            <div class="card border-0 shadow-sm mb-4">
+
+                <div class="card-header bg-primary text-white">
+
+                    <h3 class="mb-0">
+                        Blockchain Drug History
+                    </h3>
+
+                </div>
+
+                <div class="card-body p-4">
+
+                    <p class="text-muted">
+                        Enter a Drug ID to retrieve its immutable
+                        transaction history from Hyperledger Fabric.
+                    </p>
+
+                    <form
+                        action="{{ url_for('search_history') }}"
+                        method="POST">
+
+                        <div class="row g-3">
+
+                            <div class="col-md-9">
+
+                                <input
+                                    type="text"
+                                    name="drugID"
+                                    class="form-control form-control-lg"
+                                    placeholder="Enter Drug ID, for example D004"
+                                    value="{{ drug_id or '' }}"
+                                    required>
+
+                            </div>
+
+                            <div class="col-md-3 d-grid">
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary btn-lg">
+
+                                    View History
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- History Result -->
+            {% if drug_id and history is not none %}
+
+                <div class="card border-0 shadow-sm">
+
+                    <div class="card-body p-4">
+
+                        <div class="d-flex justify-content-between
+                                    align-items-center mb-4">
+
+                            <div>
+
+                                <h4 class="fw-bold mb-1">
+                                    Transaction History
+                                </h4>
+
+                                <p class="text-muted mb-0">
+                                    Drug ID: {{ drug_id }}
+                                </p>
+
+                            </div>
+
+                            <span class="badge bg-primary fs-6">
+
+                                {{ history | length }}
+
+                                Transaction{% if history | length != 1 %}s{% endif %}
+
+                            </span>
+
+                        </div>
+
+                        {% if history %}
+
+                            <div class="timeline">
+
+                                {% for item in history %}
+
+                                    {% set record = item.drug or {} %}
+
+                                    <div class="timeline-item">
+
+                                        <div class="timeline-marker">
+                                            {{ loop.index }}
+                                        </div>
+
+                                        <div class="timeline-content
+                                                    card border-0 bg-light">
+
+                                            <div class="card-body">
+
+                                                <!-- History Event Header -->
+                                                <div class="row align-items-center">
+
+                                                    <div class="col-md-8">
+
+                                                        <h5 class="fw-bold mb-2">
+
+                                                            {% if item.isDeleted %}
+
+                                                                Record Deleted
+
+                                                            {% elif record.status == "REVOKED" %}
+
+                                                                Drug Revoked
+
+                                                            {% elif loop.first %}
+
+                                                                Drug Registered
+
+                                                            {% else %}
+
+                                                                Blockchain Record Updated
+
+                                                            {% endif %}
+
+                                                        </h5>
+
+                                                    </div>
+
+                                                    <div class="col-md-4 text-md-end">
+
+                                                        {% if record.status %}
+
+                                                            <span class="badge
+                                                                {% if record.status == 'ACTIVE' %}
+                                                                    bg-success
+                                                                {% elif record.status == 'REVOKED' %}
+                                                                    bg-danger
+                                                                {% else %}
+                                                                    bg-secondary
+                                                                {% endif %}">
+
+                                                                {{ record.status }}
+
+                                                            </span>
+
+                                                        {% endif %}
+
+                                                    </div>
+
+                                                </div>
+
+                                                <hr>
+
+                                                <!-- Drug Details -->
+                                                <div class="row g-3">
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Drug ID:</strong>
+
+                                                        {{ record.drugID
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Drug Name:</strong>
+
+                                                        {{ record.drugName
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Manufacturer:</strong>
+
+                                                        {{ record.manufacturer
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Batch Number:</strong>
+
+                                                        {{ record.batchNumber
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Manufacture Date:</strong>
+
+                                                        {{ record.manufactureDate
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Expiry Date:</strong>
+
+                                                        {{ record.expiryDate
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Current Owner:</strong>
+
+                                                        {{ record.currentOwner
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Status:</strong>
+
+                                                        {{ record.status
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Created At:</strong>
+
+                                                        {{ record.createdAt
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+
+                                                        <strong>Updated At:</strong>
+
+                                                        {{ record.updatedAt
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-12">
+
+                                                        <strong>QR Hash:</strong>
+
+                                                        <div class="small
+                                                                    text-break
+                                                                    font-monospace">
+
+                                                            {{ record.qrHash
+                                                               or "Not available" }}
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-md-12">
+
+                                                        <strong>
+                                                            Blockchain Timestamp:
+                                                        </strong>
+
+                                                        {{ item.timestamp
+                                                           or "Not available" }}
+
+                                                    </div>
+
+                                                    <div class="col-md-12">
+
+                                                        <strong>
+                                                            Transaction ID:
+                                                        </strong>
+
+                                                        <div class="small
+                                                                    text-break
+                                                                    font-monospace">
+
+                                                            {{ item.txID
+                                                               or "Not available" }}
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                {% endfor %}
+
+                            </div>
+
+                        {% else %}
+
+                            <div class="alert alert-warning mb-0">
+
+                                No transaction history was returned for
+                                Drug ID {{ drug_id }}.
+
+                            </div>
+
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

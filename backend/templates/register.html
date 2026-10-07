@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block title %}
+Register Drug | PharmaChain
+{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8">
+
+            <div class="card shadow border-0">
+
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">
+                        Register Pharmaceutical Drug
+                    </h3>
+                </div>
+
+                <div class="card-body">
+
+                    <form action="{{ url_for('register') }}" method="POST">
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Drug ID</label>
+                                <input type="text"
+                                       class="form-control"
+                                       name="drugID"
+                                       placeholder="Example: D003"
+                                       required>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Drug Name</label>
+                                <input type="text"
+                                       class="form-control"
+                                       name="drugName"
+                                       required>
+                            </div>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Manufacturer</label>
+                            <input type="text"
+                                   class="form-control"
+                                   name="manufacturer"
+                                   required>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Batch Number</label>
+                                <input type="text"
+                                       class="form-control"
+                                       name="batchNumber"
+                                       required>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <label class="form-label">Manufacture Date</label>
+                                <input type="date"
+                                       class="form-control"
+                                       name="manufactureDate"
+                                       required>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <label class="form-label">Expiry Date</label>
+                                <input type="date"
+                                       class="form-control"
+                                       name="expiryDate"
+                                       required>
+                            </div>
+
+                        </div>
+
+                        <div class="d-grid">
+
+                            <button class="btn btn-success btn-lg">
+                                Register Drug on Blockchain
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
